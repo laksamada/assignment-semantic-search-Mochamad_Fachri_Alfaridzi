@@ -1,0 +1,25 @@
+type,query,expected,top3_ids,top3_scores,hit@1,hit@3,answer
+direct,Bagaimana cara membatalkan pesanan yang sudah dibuat?,3.0,"[3, 24, 44]","[0.7866, 0.7134, 0.701]",True,True,"Halo! Pesanan dapat dibatalkan melalui halaman 'Pesanan Saya' selama status pesanan masih 'Diproses'. Namun, perlu diingat bahwa pembatalan tidak dapat dilakukan setelah status pesanan berubah menjadi 'Dikirim'.
+
+Sumber: FAQ #3"
+direct,Metode pembayaran apa saja yang tersedia?,17.0,"[17, 22, 20]","[0.7957, 0.7261, 0.7062]",True,True,"Halo! Kami mendukung transfer bank, kartu kredit/debit, e-wallet, dan pembayaran melalui minimarket rekanan.
+
+Sumber: FAQ #17"
+paraphrase,"aku lupa kata sandi, gimana caranya bisa masuk lagi ke akunku?",32.0,"[32, 55, 31]","[0.7749, 0.7134, 0.664]",True,True,"Halo! Untuk mengatur ulang password Anda, silakan ikuti langkah-langkah berikut:
+1. Klik 'Lupa Password' pada halaman login.
+2. Masukkan email terdaftar.
+3. Ikuti instruksi reset password yang dikirim ke email Anda.
+
+Sumber: FAQ #32"
+paraphrase,"saldo m-banking udah kepotong tapi orderan masih nunggu dibayar, kok gitu?",21.0,"[21, 8, 4]","[0.7692, 0.7045, 0.7023]",True,True,"Halo! Hal tersebut biasanya terjadi karena adanya keterlambatan sinkronisasi sistem pembayaran. Silakan tunggu selama 15-30 menit atau hubungi customer service jika status pesanan Anda belum juga berubah. 
+
+Sumber: FAQ #21"
+paraphrase,"barang yang dateng pecah dan penyok, harus ngapain?",16.0,"[16, 54, 24]","[0.7998, 0.7429, 0.7282]",True,True,"Halo! Jika paket diterima dalam kondisi rusak, silakan segera ambil foto atau video kondisi paket saat diterima. Setelah itu, laporkan melalui menu komplain dalam waktu 2x24 jam sejak barang diterima.
+
+Sumber: FAQ #16"
+out-of-kb,Apakah ada toko offline di Surabaya untuk ambil barang langsung?,,"[58, 11, 43]","[0.6418, 0.6392, 0.6358]",,,"Halo! Mohon maaf, informasi mengenai ketersediaan toko offline di Surabaya untuk pengambilan barang langsung belum tersedia di FAQ kami. Silakan menghubungi customer service kami untuk mendapatkan bantuan lebih lanjut.
+
+Sumber: -"
+out-of-kb,"Bisa kirim paket ke luar negeri, misalnya ke Singapura?",,"[15, 12, 13]","[0.6886, 0.6853, 0.6843]",,,"Halo! Mohon maaf, informasi mengenai pengiriman paket ke luar negeri seperti ke Singapura belum tersedia di FAQ kami. Silakan hubungi customer service kami untuk mendapatkan bantuan lebih lanjut mengenai hal tersebut.
+
+Sumber: -"
